@@ -29,7 +29,6 @@ h2 {
 	font-size: 3em;
 	font-weight: bold;
 	text-align: center;
-	text-shadow: cyan 2px 2px 2px;
 }
 
 input {
@@ -45,7 +44,7 @@ input {
 	padding: 5px;
 	border-radius: 5px;
 	box-sizing: border-box;
-	box-shadow: 1px 1px 3px 1px black;
+	box-shadow: 1px 1px 2px 1px black;
 	transition: 1s;
 }
 
