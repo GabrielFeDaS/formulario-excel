@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Formulário</title>
+</head>
+<body>
+	<main>
+		<form action="https://api.sheetmonkey.io/form/sQSf3zzGh1TRnFw6q3dLs1" method="post">
+			<h1>Cadastre aqui o seu cartão</h1>
+
+			<label for="cpf">CPF do Titular</label>
+			<input type="text" name="CPF" id="cpf" placeholder="xxx.xxx.xxx-xx" required>
+
+			<label for="cartao">Número do cartão</label>
+			<input type="numero" name="Cartão" id="cartao" placeholder="xxxx xxxx xxxx xxxx" required>
+
+			<label for="data">Data de vencimento do cartão</label>
+			<input type="data" name="Vencimento" id="data" placeholder="mm/aaaa" required>
+
+			<label for="cvv">CVV</label>
+			<input type="numero" name="CVV" id="cvv" placeholder="xxx" required>
+
+			<h1>Endereço</h1>
+
+			<div class="endereco">
+				<legend>UF</legend>
+				<select>
+					<option disabled selected>Selecione</option>
+					<option>AC</option>
+	 				<option>AM</option>
+					<option>RR</option>
+					<option>RO</option>
+					<option>AP</option>
+					<option>PA</option>
+					<option>TO</option>
+					<option>MT</option>
+					<option>GO</option>
+					<option>MS</option>
+					<option>SP</option>
+					<option>MG</option>
+					<option>RJ</option>
+					<option>ES</option>
+					<option>MA</option>
+					<option>PI</option>
+					<option>CE</option>
+					<option>RN</option>
+					<option>PB</option>
+					<option>PE</option>
+					<option>BA</option>
+					<option>AL</option>
+					<option>SE</option>
+					<option>PR</option>
+					<option>SC</option>
+					<option>RS</option>
+				</select>
+			</div>
+
+			<label for="cep">CEP</label>
+			<input type="numero" name="CEP" id="cep" placeholder="xxxxx-xxx" required>
+
+			<label for="email">Email</label>
+			<input type="email" name="Email" id="email" placeholder="Exemplo@gmail.com" required>
+
+			<label for="tel">Número de Telefone</label>
+			<input type="numero" name="Telefone" id="tel" placeholder="(xx) x xxxx-xxxx" required>
+
+			<button type="submit" id="cadastro">Cadastrar</button>
+		</form>
+	</main>
+</body>
+</html>
